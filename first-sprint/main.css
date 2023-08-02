@@ -1,0 +1,42 @@
+.board{
+    height: 130px;
+    width: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
+table,
+th,
+td {
+ border: 1px solid black;
+}
+
+td {
+ width: 50px;
+ height: 15px;
+ text-align: center;
+}
+.hide {
+    display: none;
+  }
+  .again{
+    cursor: pointer;
+  } 
+  .btn{
+    cursor: pointer;
+    margin: auto;
+  }
+  .modal {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+  }
+  .victory{
+    display: none;
+  }
+  body{
+    background-color: bisque;
+  }
