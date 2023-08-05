@@ -2,7 +2,7 @@
     height: 130px;
     width: 200px;
     margin: auto;
-    margin-top: 200px;
+     margin-top: 50px; 
 }
 table,
 th,
@@ -40,3 +40,31 @@ td {
   body{
     background-color: bisque;
   }
+  h1{
+    text-align: center;
+}
+p{
+    margin-top: 900px;
+}
+.btn-dif{
+  margin-left:830px;
+  
+}
+button{
+  margin-left: 20px;
+  background-color:blue;
+  color: aliceblue;
+}
+h2{
+  text-align: center;
+}
+.gameOver{
+  background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    display: none;
+}

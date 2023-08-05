@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="main.css">
 
 </head>
+<h1>Mine sweeper!</h1>
 <body onload="onInit()">
+    <div class="btn-dif">
+        <button class="easy" onclick="setLevel('beginner')">Easy</button>
+        <button class="medium" onclick="setLevel('medium')">medium</button>
+        <button class="Hard" onclick="setLevel('expert')">Hard</button>
+    </div>
+    <h2>Lives: <span class="lives">3</span></h2>
     <table class="board">
 
     </table>
@@ -18,9 +25,16 @@
 <div class="modal victory">
 
     <h2>YOU WON CONGRATS🥇</h2>
-    <button onclick="onInit()">Play again</button>
+    <button class="victoryis" onclick="onInit()">Play again</button>
+  </div>
+  <div class="gameOver">
+    <h2>Game over</h2>
+    <button class="tryAgain" onclick="onInit()">Try again</button>
+    
+
   </div>
 
+ <p> this game brought to you by Itay Tal.</p>
 
     <script src="utils.js"></script>
     <script src="mineSweeper.js"></script>
