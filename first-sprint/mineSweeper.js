@@ -79,7 +79,7 @@ function buildBoard() {
                 isMarked: false,
                 content: '',
                 isFlagged: false ,
-                negsCount:setMinesNegsCount(board,i,j)
+                // negsCount:setMinesNegsCount(board,i,j)
                 
                 
             }
